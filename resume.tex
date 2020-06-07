@@ -1,0 +1,85 @@
+\documentclass[11pt, letterpaper]{article}
+\usepackage[margin=1.5cm,
+            headheight=32pt,
+            includehead,includefoot,
+            heightrounded]
+            {geometry}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{censor}
+
+\StopCensoring
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\setlist{nosep}
+
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{32pt}
+\lhead{\Huge\bf\textrm{Charles Wilkin}}
+\rhead{Updated: \today}
+
+\righthyphenmin=60
+
+\begin{document}
+\begin{multicols}{3}
+\centering
+\begin{tabular}{r l}
+  \bf Address: & \censor{531 Highspire Rd.}\\   
+               & \censor{Glenmoore}, PA, \censor{19343}\\   
+               & USA\\ 
+\end{tabular}
+
+\columnbreak
+
+\begin{tabular}{r l}
+  \bf Email: &CWilkin@Protonmail.com\\
+  \bf XMPP:  &Charlie@BusyBoredom.com\\
+\end{tabular}
+
+\columnbreak
+
+\begin{tabular}{r l}
+  \bf Website:  &BusyBoredom.com\\
+  \bf Github:   &github.com/busyboredom\\
+\end{tabular}
+
+\end{multicols}
+
+\vspace{-0.25cm}\centering\noindent\rule{\textwidth}{0.4pt}\bigbreak
+
+\begin{tabular}{p{0.1\textwidth} p{0.6\textwidth} p{0.2\textwidth}}
+  \bf Education & \textsf{Electrical Engineering B.S.} --
+                  \it Pennsylvania State University\medskip & \hfill\small May, 2020\\
+                & Physics B.S. --
+                  \it West Chester University\bigskip       & \hfill\small May, 2020\\
+
+  \bf Experience & 
+
+  Electrical Control Engineer -- \textit{Universal Machine Company}\par
+  \smallskip UMC desgns and builds custom machinery for industrial automation.
+  \begin{itemize}
+    \item Programmed PLCs, HMIs, and robotic arms for custom machinery according to each client's
+      unique requirements.
+    \item Designed and edited the electrical schematics and panel layouts for large projects.
+  \end{itemize}
+  \smallskip & 
+
+  \hfill\small May, 2020 -- Present\\ &
+  
+  Co-Founder -- \textit{Vinegar Hill, LLC}\par
+  \smallbreak Vinegar Hill LLC is a small meadery run by five young professionals, founded to gain
+  entreprenueral experience. 
+  \begin{itemize}
+      \item Significant experience brewing malt and brewed beverages in a sanitary environment, and navigating the state licensing process.
+  \end{itemize}
+  \bigbreak &
+
+  \hfill\small Jan, 2018 -- Present
+
+
+\end{tabular}
+
+\end{document}
