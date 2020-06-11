@@ -1,12 +1,13 @@
 \documentclass[11pt, letterpaper]{article}
 \usepackage[margin=1.5cm,
-            headheight=32pt,
-            includehead,includefoot,
+            headheight=31pt,
+            includehead,
             heightrounded]
             {geometry}
 \usepackage{fancyhdr}
 \usepackage{multicol}
 \usepackage{enumitem}
+\usepackage{amssymb}
 \usepackage{censor}
 
 \StopCensoring
@@ -15,46 +16,52 @@
 
 \setlist{nosep}
 \setlength\columnsep{0pt}
+\setlength{\tabcolsep}{0.01\textwidth}
 
 \pagestyle{fancy}
 \fancyhf{}
-\setlength{\headheight}{32pt}
+\setlength{\headheight}{31pt}
 \lhead{\Huge\bf\textrm{Charles Wilkin}}
 \rhead{Updated: \today}
 
 \righthyphenmin=60
 
 \begin{document}
-\begin{multicols}{2}
-\centering
-\begin{tabular}{r l}
-  \bf Address: & \censor{531 Highspire Rd.}\\   
-               & \censor{Glenmoore}, PA, \censor{19343}\\   
-               & USA\\ 
-\end{tabular}
 
-\columnbreak
+\vspace{-1cm}
+\begin{center}
+  \begin{multicols}{2}
+    \begin{tabular}{r l}
+      \bf Address: & \censor{531 Highspire Rd.}\\   
+                  & \censor{Glenmoore}, PA, \censor{19343}\\   
+                  & USA\\ 
+    \end{tabular}
 
-\begin{tabular}{r l}
-  \bf Email:    &CWilkin@Protonmail.com\\
-  \bf XMPP:     &Charlie@BusyBoredom.com\\
-  \bf Website:  &BusyBoredom.com\\
-  \bf Github:   &github.com/busyboredom\\
-\end{tabular}
+    \columnbreak
 
-\end{multicols}
+    \begin{tabular}{r l}
+      \bf Email:    &CWilkin@Protonmail.com\\
+      \bf XMPP:     &Charlie@BusyBoredom.com\\
+      \bf Website:  &BusyBoredom.com\\
+      \bf Github:   &GitHub.com/busyboredom\\
+    \end{tabular}
+  \end{multicols}
+\end{center}
 
-\vspace{-0.25cm}\centering\noindent\rule{\textwidth}{0.4pt}\bigbreak
 
-\begin{tabular}{p{0.15\textwidth} p{0.58\textwidth} p{0.18\textwidth}}
+\vspace{-0.25cm}\noindent\rule{\textwidth}{0.4pt}\bigbreak
+
+\noindent
+\begin{tabular}{p{0.15\textwidth} p{0.60\textwidth} p{0.18\textwidth}}
   \large\textsc{Education} & \textbf{Electrical Engineering B.S.}
                              --\it Pennsylvania State University\medskip & \hfill\small May, 2020\\
                            & \textbf{Physics B.S.}
-                             --\it West Chester University\bigskip       & \hfill\small May, 2020\\
+                             --\it West Chester University               & \hfill\small May, 2020\\
+                           & \raisebox{0.5ex}{$\llcorner$} \small Mathematics Minor\bigskip    & \\
 
   \large\textsc{Experience} & 
   
-  \textbf{Electrical Control Engineer} -- \textit{Universal Machine Company}\par
+  \textbf{Electrical Controls Engineer} -- \textit{Universal Machine Company}\par
   \smallskip UMC desgns and builds custom machinery for industrial automation.
   \begin{itemize}
     \item Programmed PLCs, HMIs, and robotic arms for custom machinery according to each client's
@@ -66,7 +73,7 @@
   \hfill\small May, 2020 -- Present\\ &
   
   \large\textbf{Co-Founder} -- \textit{Vinegar Hill, LLC}\par
-  \smallbreak Vinegar Hill LLC is a small meadery run by five young professionals, founded to gain
+  \smallskip Vinegar Hill LLC is a small meadery run by five young professionals, founded to gain
   entreprenueral experience. 
   \begin{itemize}
       \item Significant experience brewing malt and brewed beverages in a sanitary environment, and
@@ -99,6 +106,52 @@
   \smallskip &
   \hfill\small Jan, 2019\\ &
 
+  \textbf{Bro Server} -- A collection of self-hosted projects uncluding an Ejabberd XMPP server.
+  \bigskip &
+  \hfill\small Jan, 2019\\ 
+
 \end{tabular}
 
+\setlength\columnsep{0.05\textwidth}
+
+\noindent
+\begin{tabular}{p{0.15\textwidth} p{0.8\textwidth}}
+  \large\textsc{Software} & \vspace{-0.75cm}
+
+  \noindent
+  \begin{multicols*}{2}
+    \noindent
+    \begin{center}
+      \large Development
+      \rule[10pt]{\linewidth}{0.04pt}
+      \vspace{-33pt}
+    \end{center}      
+    Rust\dotfill                   \textit{10+ Small Projects}\newline
+    C++\dotfill                    \textit{10+ Small Projects}\newline
+    Python\dotfill                 \textit{10+ Small Projects}\newline
+    Tensorflow\dotfill             \textit{10+ Small Projects}\newline
+    MySQL\dotfill                  \textit{5+ Small Projects}\newline
+    HTML/CSS\dotfill               \textit{5+ Small Projects}\newline
+    Linux Command Line\dotfill     \textit{5+ Years}\newline
+    Git Version Control\dotfill    \textit{5+ Years}\newline 
+
+    \columnbreak
+
+    \noindent
+    \begin{center}
+      \large Engineering
+      \rule[10pt]{\linewidth}{0.04pt}
+      \vspace{-33pt}
+    \end{center}
+    AutoCAD 2020\dotfill           \textit{300+ Hours}\newline
+    Autodesk Inventor\dotfill      \textit{200+ Hours}\newline 
+    MATLAB\dotfill                 \textit{200+ Hours}\newline
+    LTSpice\dotfill                \textit{5+ Small Projects}\newline
+    RSLogix 500\dotfill            \textit{5+ Paid Jobs}\newline
+    Studio 5000\dotfill            \textit{5+ Paid Jobs}\newline
+    GP-Pro EX\dotfill              \textit{3+ Paid Jobs}\newline
+    FactoryTalk View\dotfill       \textit{5+ Paid Jobs}\newline
+
+  \end{multicols*}
+\end{tabular}
 \end{document}
