@@ -1,0 +1,142 @@
+\documentclass[11pt, letterpaper]{article}
+\usepackage[margin=1.5cm,
+            headheight=31pt,
+            includehead,
+            heightrounded]
+            {geometry}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{amssymb}
+\usepackage{censor}
+
+\StopCensoring
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\setlist{nosep}
+\setlength\columnsep{0pt}
+\setlength{\tabcolsep}{0.01\textwidth}
+
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{12pt}
+\lhead{\Huge\bf\textrm{Charles Wilkin}}
+\rhead{Updated: \today}
+
+\righthyphenmin=60
+
+\begin{document}
+
+\begin{center}
+  \begin{multicols}{2}
+    \begin{tabular}{r l}
+      \bf Address: & \censor{531 Highspire Rd.}\\   
+                  & \censor{Glenmoore}, PA, \censor{19343}\\   
+                  & USA\\ 
+    \end{tabular}
+
+    \columnbreak
+
+    \begin{tabular}{r l}
+      \bf Email:    &Charlie@BusyBoredom.com\\
+      \bf Website:  &BusyBoredom.com\\
+      \bf Github:   &GitHub.com/busyboredom\\
+    \end{tabular}
+  \end{multicols}
+\end{center}
+
+
+\vspace{-0.55cm}\noindent\rule{\textwidth}{0.4pt}\bigbreak
+
+\noindent
+\begin{tabular}{p{0.15\textwidth} p{0.60\textwidth} p{0.19\textwidth}}
+  \large\textsc{Education} & \textbf{Electrical Engineering B.S.}
+                             --\it Pennsylvania State University\medskip & \hfill\small May, 2020\\
+                           & \textbf{Physics B.S.}
+                             --\it West Chester University               & \hfill\small May, 2020\bigskip\\
+
+  \large\textsc{Experience} & 
+  
+  \textbf{Electrical Controls Engineer} -- \textit{Universal Machine Company}\par
+  \smallskip UMC designs and builds custom machinery for industrial automation.
+  \begin{itemize}
+    \item Programmed PLCs, HMIs, and robotic arms for custom machinery according to each client's
+      unique requirements.
+    \item Developed electrical schematics and selected electrical components for large \$1M+ projects.
+    \item Automated onboard logging and reporting, meeting strict regulatory requirements
+      for completeness, security and reliability.
+    \item Trained new engineers and wrote detailed programming procedures to expedite onboarding.
+  \end{itemize}
+  \smallskip & 
+
+  \hfill\small Jul, 2019 -- Present\\
+
+  \large\textsc{Industrial Machines} &
+
+  \textbf{COVID PACS Controllers} -- Six industrial PACS controllers for the production of 
+  the COVID-19 vaccine. 
+  \smallskip &
+  \hfill\small Jun, 2021\\ &
+
+  \textbf{Filler/Capper/Labeler/Loader} -- A custom, fully-automated CFR 11 compliant packaging 
+  line for liquid pharmaceuticals.  
+  \smallskip &
+  \hfill\small Dec, 2020\\ &
+
+  \textbf{Rotavirus Inspection} -- Fail-safe labeling, inspection and rejection for rotavirus 
+  vaccine tubes.
+  \smallskip &
+  \hfill\small Nov, 2020\\ &
+
+  \textbf{Autoinjector Sleever} -- Large one-of-a-kind machine for the packaging/labeling of 
+  pharmaceutical autoinjectors.
+  \smallskip &
+  \hfill\small May, 2020\\ &
+
+  \textbf{Misc.} -- Numerous miscelaneous labelers, presses, filter testers and other 
+  pharmaceutical machinery.
+  \bigskip &
+  \hfill\small N/A\\
+
+  \large\textsc{Projects} &
+
+  \textbf{SobreMesa SCADA} -- A framework for web-based industrial control and data
+  acquisition using only open-source tools. 
+  \smallskip &
+  \hfill\small Dec, 2020 -- Present\\ &
+
+  \textbf{BusyBoredom.com} -- A portfolio website made using a systems-level language
+  compiled to WebAssembly instead of JavaScript. 
+  \smallskip &
+  \hfill\small Jan, 2020 -- Present\\ &
+
+  \textbf{Gooba} -- An event-driven spiking neural simulator written in rust.
+  \smallskip &
+  \hfill\small Dec, 2020\\ &
+
+  \textbf{Amplifier Optimizer} -- A genetic algorithm that does your circuit design
+  homework. \smallskip &
+  \hfill\small Apr, 2019\\ &
+
+  \textbf{Bro Server} -- A collection of self-hosted projects including XMPP, Bitwarden
+  and Git servers.
+  \bigskip &
+  \hfill\small Jan, 2019\\ 
+
+  \large\textsc{Skills} &
+
+  \textbf{Hardware} -- ControlLogix PLCs, MicroLogix PLCs, PanelView HMIs, ProFace HMIs, Panel PCs, Cognex Cameras, Epson Robots.
+  \medskip\\ &
+
+  \textbf{Databases} -- MSSQL, MySQL, PostgreSQL.
+  \medskip\\ &
+
+  \textbf{Software} -- Studio 5000, FactoryTalk View SE/ME, Autocad 2020, XLReporter, Microsoft SQL Reporting Services, GP-Pro EX.
+  \\ 
+
+\end{tabular}
+
+\fancyfoot[C]{\textit{Programming Since 2011 (10 Years)}}
+
+\end{document}
