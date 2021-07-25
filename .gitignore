@@ -2,7 +2,7 @@
 *.pdf
 *.dvi
 *.aux
-resume.fdb_latexmk
-resume.fls
-resume.out
-resume.synctex.gz
+*.out
+*.fdb_latexmk
+*.fls
+*.synctex.gz
